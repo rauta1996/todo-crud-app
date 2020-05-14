@@ -1,0 +1,44 @@
+.container{
+    width: 250px;
+    background-color: #bbb;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+
+.header{
+    padding: 5px;
+    background-attachment: #eee;
+    text-align: center;
+}
+h1,h2,h3,h4{
+    padding: 0px;
+    margin: 0px;
+}
+.header input{
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+.header button{
+    width: 80%;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: green;
+}
+
+.list:hover{
+    background-color: white;
+    text-decoration: hotpink;
+}
+
+.close{
+    background-color: red;
+    border-radius: 50px;
+}
